@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,15 @@
 		677E68E4231EAB9200464654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677E68E2231EAB9200464654 /* Main.storyboard */; };
 		677E68E6231EAB9400464654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677E68E5231EAB9400464654 /* Assets.xcassets */; };
 		677E68E9231EAB9400464654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677E68E7231EAB9400464654 /* LaunchScreen.storyboard */; };
+		67BCB71B23200FF900B33838 /* Atlanta.tif in Resources */ = {isa = PBXBuildFile; fileRef = 67BCB71A23200FF900B33838 /* Atlanta.tif */; };
+		67BCB71D23202C3500B33838 /* myAtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCB71C23202C3500B33838 /* myAtl.png */; };
+		67BCB71F2320333100B33838 /* Atl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67BCB71E2320333100B33838 /* Atl.jpg */; };
+		FA2ED0B93292FDACC3552E32 /* Pods_Tiff_Show.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B36185E9FC8381639DBAAB /* Pods_Tiff_Show.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30B36185E9FC8381639DBAAB /* Pods_Tiff_Show.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiff_Show.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567007E252F14D4EBB2C1E92 /* Pods-Tiff_Show.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiff_Show.debug.xcconfig"; path = "Target Support Files/Pods-Tiff_Show/Pods-Tiff_Show.debug.xcconfig"; sourceTree = "<group>"; };
 		677E68DB231EAB9200464654 /* Tiff_Show.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiff_Show.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		677E68DE231EAB9200464654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		677E68E0231EAB9200464654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		677E68E5231EAB9400464654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		677E68E8231EAB9400464654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		677E68EA231EAB9400464654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BCB71A23200FF900B33838 /* Atlanta.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Atlanta.tif; sourceTree = SOURCE_ROOT; };
+		67BCB71C23202C3500B33838 /* myAtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myAtl.png; sourceTree = SOURCE_ROOT; };
+		67BCB71E2320333100B33838 /* Atl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Atl.jpg; sourceTree = SOURCE_ROOT; };
+		E233CCBC9EDC98F2D665F205 /* Pods-Tiff_Show.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiff_Show.release.xcconfig"; path = "Target Support Files/Pods-Tiff_Show/Pods-Tiff_Show.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2ED0B93292FDACC3552E32 /* Pods_Tiff_Show.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				677E68DD231EAB9200464654 /* Tiff_Show */,
 				677E68DC231EAB9200464654 /* Products */,
+				7C58EF3D57F106916D10F8CF /* Pods */,
+				FCB8EB49C9A509E9EF3CBF44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,34 @@
 		677E68DD231EAB9200464654 /* Tiff_Show */ = {
 			isa = PBXGroup;
 			children = (
+				67BCB71E2320333100B33838 /* Atl.jpg */,
+				67BCB71C23202C3500B33838 /* myAtl.png */,
 				677E68DE231EAB9200464654 /* AppDelegate.swift */,
 				677E68E0231EAB9200464654 /* ViewController.swift */,
 				677E68E2231EAB9200464654 /* Main.storyboard */,
 				677E68E5231EAB9400464654 /* Assets.xcassets */,
+				67BCB71A23200FF900B33838 /* Atlanta.tif */,
 				677E68E7231EAB9400464654 /* LaunchScreen.storyboard */,
 				677E68EA231EAB9400464654 /* Info.plist */,
 			);
 			path = Tiff_Show;
+			sourceTree = "<group>";
+		};
+		7C58EF3D57F106916D10F8CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				567007E252F14D4EBB2C1E92 /* Pods-Tiff_Show.debug.xcconfig */,
+				E233CCBC9EDC98F2D665F205 /* Pods-Tiff_Show.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCB8EB49C9A509E9EF3CBF44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30B36185E9FC8381639DBAAB /* Pods_Tiff_Show.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 677E68ED231EAB9400464654 /* Build configuration list for PBXNativeTarget "Tiff_Show" */;
 			buildPhases = (
+				E5620F3CC5CE498C97A2D5F2 /* [CP] Check Pods Manifest.lock */,
 				677E68D7231EAB9200464654 /* Sources */,
 				677E68D8231EAB9200464654 /* Frameworks */,
 				677E68D9231EAB9200464654 /* Resources */,
+				34508D86A3FB7F44A934C716 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +158,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				677E68E9231EAB9400464654 /* LaunchScreen.storyboard in Resources */,
+				67BCB71B23200FF900B33838 /* Atlanta.tif in Resources */,
 				677E68E6231EAB9400464654 /* Assets.xcassets in Resources */,
+				67BCB71F2320333100B33838 /* Atl.jpg in Resources */,
 				677E68E4231EAB9200464654 /* Main.storyboard in Resources */,
+				67BCB71D23202C3500B33838 /* myAtl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34508D86A3FB7F44A934C716 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiff_Show/Pods-Tiff_Show-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiff_Show/Pods-Tiff_Show-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tiff_Show/Pods-Tiff_Show-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5620F3CC5CE498C97A2D5F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tiff_Show-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		677E68D7231EAB9200464654 /* Sources */ = {
@@ -280,6 +360,7 @@
 		};
 		677E68EE231EAB9400464654 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567007E252F14D4EBB2C1E92 /* Pods-Tiff_Show.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +379,7 @@
 		};
 		677E68EF231EAB9400464654 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E233CCBC9EDC98F2D665F205 /* Pods-Tiff_Show.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
